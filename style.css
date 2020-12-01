@@ -1,0 +1,23 @@
+h1
+{
+    position: relative;
+    font-family: arial;
+    font-size: 18px;
+}
+
+h2
+{
+    position: relative;
+    text-align: center;
+    font-family: arial;
+    font-size: 24px;
+}
+
+h3
+{
+    position: relative;
+    text-align: center;
+    font-family: Times;
+    font-weight: normal;
+    font-size: 16px;
+}

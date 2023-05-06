@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matteo's Website - Misc</title><link href="https:/" rel="alternate"></link><link href="https:///feeds/misc.atom.xml" rel="self"></link><id>https:/</id><updated>2023-03-27T00:00:00-04:00</updated><entry><title>Hello, World!</title><link href="https:///hello-world.html" rel="alternate"></link><published>2023-03-27T00:00:00-04:00</published><updated>2023-03-27T00:00:00-04:00</updated><author><name>Matteo Raso</name></author><id>tag:None,2023-03-27:/hello-world.html</id><content type="html">&lt;p&gt;This is the first post for my new and improved website (there was an old one, but it was garbage). Not sure what I'll be posting here, probably mostly updates on any projects I'm working on.&lt;/p&gt;</content><category term="Misc"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matteo's Website - Misc</title><link href="https:/" rel="alternate"></link><link href="https:///feeds/misc.atom.xml" rel="self"></link><id>https:/</id><updated>2023-05-05T00:00:00-04:00</updated><entry><title>When Adding A Recovery Option Makes Things Worse</title><link href="https:///when-adding-a-recovery-option-makes-things-worse.html" rel="alternate"></link><published>2023-05-05T00:00:00-04:00</published><updated>2023-05-05T00:00:00-04:00</updated><author><name>Matteo Raso</name></author><id>tag:None,2023-05-05:/when-adding-a-recovery-option-makes-things-worse.html</id><summary type="html">&lt;p&gt;A couple of years ago, I added a recovery phone number to my gmail 
+so that I could get into my account if I ever forgot my password.
+Fast forward to the present day, and I need to get back into the 
+account. Even though I have my password after …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A couple of years ago, I added a recovery phone number to my gmail 
+so that I could get into my account if I ever forgot my password.
+Fast forward to the present day, and I need to get back into the 
+account. Even though I have my password after all these years, I
+couldn't get in without a verification code sent to my old phone
+number, which I no longer had. I was able to get my account back
+by contacting my old phone number, but that was pure luck. I don't
+know why somebody would come up with such a horrible anti-pattern,
+but don't do this if you're in charge of a website and you want to
+give your user an option to add a recovery phone number. Seriously,
+there's no reason to think that somebody coming back to an account
+after a few years is suspicious, unless you have a good reason to
+think that your company was hacked. Pro-tip, you can keep your users's
+passwords from getting cracked if you enforce a reasonable password
+policy. That way, you can keep your users safe without locking them
+out of their account. I'll never get how Google doesn't understand this.&lt;/p&gt;</content><category term="Misc"></category></entry><entry><title>Hello, World!</title><link href="https:///hello-world.html" rel="alternate"></link><published>2023-03-27T00:00:00-04:00</published><updated>2023-03-27T00:00:00-04:00</updated><author><name>Matteo Raso</name></author><id>tag:None,2023-03-27:/hello-world.html</id><content type="html">&lt;p&gt;This is the first post for my new and improved website (there was an old one, but it was garbage). Not sure what I'll be posting here, probably mostly updates on any projects I'm working on.&lt;/p&gt;</content><category term="Misc"></category></entry></feed>

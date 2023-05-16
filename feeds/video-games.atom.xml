@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matteo's Website - Video Games</title><link href="https:/" rel="alternate"></link><link href="https:///feeds/video-games.atom.xml" rel="self"></link><id>https:/</id><updated>2023-05-15T00:00:00-04:00</updated><entry><title>Facade Was Underrated</title><link href="https:///facade-was-underrated.html" rel="alternate"></link><published>2023-05-15T00:00:00-04:00</published><updated>2023-05-15T00:00:00-04:00</updated><author><name>Matteo Raso</name></author><id>tag:None,2023-05-15:/facade-was-underrated.html</id><summary type="html">&lt;p&gt;Yeah, it was definitely janky, but it's incredible that the devs were
+able to make an AI that could respond to what the player says all the
+way back in 2005. Another problem was that the devs were limited by
+the number of lines that they could get the actors …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yeah, it was definitely janky, but it's incredible that the devs were
+able to make an AI that could respond to what the player says all the
+way back in 2005. Another problem was that the devs were limited by
+the number of lines that they could get the actors to record, so the
+dialogue had to be constricted. It would be amazing if somebody tried
+to make a spiritual sequel that uses audio deepfakes for voice acting
+and some sort of LLM to handle the responses.&lt;/p&gt;</content><category term="Video Games"></category></entry></feed>

@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matteo's Website - Technology</title><link href="https:/" rel="alternate"></link><link href="https:///feeds/technology.atom.xml" rel="self"></link><id>https:/</id><updated>2023-05-01T00:00:00-04:00</updated><entry><title>An Overview Of My Wine AI</title><link href="https:///an-overview-of-my-wine-ai.html" rel="alternate"></link><published>2023-05-01T00:00:00-04:00</published><updated>2023-05-01T00:00:00-04:00</updated><author><name>Matteo Raso</name></author><id>tag:None,2023-05-01:/an-overview-of-my-wine-ai.html</id><summary type="html">&lt;p&gt;I decided to make an AI that predicts the quality of red wine recently.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matteo's Website - Technology</title><link href="https:/" rel="alternate"></link><link href="https:///feeds/technology.atom.xml" rel="self"></link><id>https:/</id><updated>2023-05-18T00:00:00-04:00</updated><entry><title>I Don't Believe AGI Will Happen</title><link href="https:///i-dont-believe-agi-will-happen.html" rel="alternate"></link><published>2023-05-18T00:00:00-04:00</published><updated>2023-05-18T00:00:00-04:00</updated><author><name>Matteo Raso</name></author><id>tag:None,2023-05-18:/i-dont-believe-agi-will-happen.html</id><summary type="html">&lt;p&gt;With all the hype (and fear) about ChatGPT and existential threats caused
+by AI, I think it'd be good for society as a whole to take a step back and
+calmly analyse what AI are. No matter how advanced they are, they're just
+really big equations filled with matrix multiplication …&lt;/p&gt;</summary><content type="html">&lt;p&gt;With all the hype (and fear) about ChatGPT and existential threats caused
+by AI, I think it'd be good for society as a whole to take a step back and
+calmly analyse what AI are. No matter how advanced they are, they're just
+really big equations filled with matrix multiplication and non-linear
+activation functions. No matter how accurate they are, I don't think an
+equation can ever be called intelligent. I don't think an equation can
+even emulate intelligence that well. For an equation to be used to solve
+a problem, an intelligent agent has to actually decide that the equation
+can be used to solve the problem and then use a computer to do the
+calculations. I think that autonomy is an essential aspect of intelligence,
+which an equation will never emulate, much less have. I don't want to say
+that AI doesn't have the potential to be dangerous, especially in the hands
+of a bad actor, but I don't think we'll ever have to worry about one of the
+AI programs becoming sentient.&lt;/p&gt;</content><category term="Technology"></category></entry><entry><title>An Overview Of My Wine AI</title><link href="https:///an-overview-of-my-wine-ai.html" rel="alternate"></link><published>2023-05-01T00:00:00-04:00</published><updated>2023-05-01T00:00:00-04:00</updated><author><name>Matteo Raso</name></author><id>tag:None,2023-05-01:/an-overview-of-my-wine-ai.html</id><summary type="html">&lt;p&gt;I decided to make an AI that predicts the quality of red wine recently.
 The first step I took was to remove unnecessary features, which I did by 
 using an ANOVA test. I found that residual sugars didn't have an impact on 
 wine quality, so I removed it to make …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I decided to make an AI that predicts the quality of red wine recently.

@@ -1,134 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="" />
-
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="https:/theme/stylesheet/style.min.css">
-
-
-    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="https:/theme/pygments/github.min.css">
-
-
-
-  <link rel="stylesheet" type="text/css" href="https:/theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="https:/theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="https:/theme/font-awesome/css/solid.css">
-
-
-
-
-  <link href="https:/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Matteo's Website Atom">
-
-
-
-
-
-
-
-
- 
-
-<meta name="author" content="Matteo Raso" />
-<meta name="description" content="You ever have a bad day and think to yourself &#34;I really just want to play old Flash games right now?&#34; I did last night, so I attempted to install a CLI Flash emulator called Ruffle. This is built on top of Rust, so I had to install that as …" />
-<meta name="keywords" content="">
-
-
-  <meta property="og:site_name" content="Matteo's Website"/>
-  <meta property="og:title" content="Rust Broke My Manjaro Installation (And How I Fixed It)"/>
-  <meta property="og:description" content="You ever have a bad day and think to yourself &#34;I really just want to play old Flash games right now?&#34; I did last night, so I attempted to install a CLI Flash emulator called Ruffle. This is built on top of Rust, so I had to install that as …"/>
-  <meta property="og:locale" content="en_US"/>
-  <meta property="og:url" content="https:/rust-broke-my-manjaro-installation-and-how-i-fixed-it.html"/>
-  <meta property="og:type" content="article"/>
-  <meta property="article:published_time" content="2023-04-24 00:00:00-04:00"/>
-  <meta property="article:modified_time" content=""/>
-  <meta property="article:author" content="https:/author/matteo-raso.html">
-  <meta property="article:section" content="Technology"/>
-  <meta property="og:image" content="">
-
-  <title>Matteo's Website &ndash; Rust Broke My Manjaro Installation (And How I Fixed It)</title>
-
-
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Rust Broke My Manjaro Installation (And How I Fixed It)</title>
+        <link rel="stylesheet" href="https://matteoraso.github.io/theme/css/main.css" />
+        <link href="https://matteoraso.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Matteo's Website Atom Feed" />
+        <meta name="description" content="You ever have a bad day and think to yourself "I really just want to play old Flash games right now?" I did last night, so I attempted to install..." />
 </head>
-<body class="light-theme">
 
-<aside>
-  <div>
-    <a href="https:/">
-      <img src="https:/theme/img/profile.png" alt="" title="">
-    </a>
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://matteoraso.github.io/">Matteo's Website</a></h1>
+                <nav><ul>
+                    <li><a href="https://matteoraso.github.io/category/anime.html">Anime</a></li>
+                    <li><a href="https://matteoraso.github.io/category/draughts.html">Draughts</a></li>
+                    <li><a href="https://matteoraso.github.io/category/misc.html">Misc</a></li>
+                    <li class="active"><a href="https://matteoraso.github.io/category/technology.html">Technology</a></li>
+                    <li><a href="https://matteoraso.github.io/category/video-games.html">Video Games</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://matteoraso.github.io/rust-broke-my-manjaro-installation-and-how-i-fixed-it.html" rel="bookmark"
+           title="Permalink to Rust Broke My Manjaro Installation (And How I Fixed It)">Rust Broke My Manjaro Installation (And How I Fixed It)</a></h1>
+    </header>
 
-    <h1>
-      <a href="https:/"></a>
-    </h1>
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2023-04-24T00:00:00-04:00">
+                Published: Mon 24 April 2023
+        </abbr>
 
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://matteoraso.github.io/author/matteo-raso.html">Matteo Raso</a>
+        </address>
+<p>In <a href="https://matteoraso.github.io/category/technology.html">Technology</a>.</p>
 
+</footer><!-- /.post-info -->      <p>You ever have a bad day and think to yourself "I really just want to play old Flash games right now?" I did last night, so I attempted to install a CLI Flash emulator called Ruffle. This is built on top of Rust, so I had to install that as well. Unfortunately, I was having trouble with Rust not finding a file called "cargo.toml", so I uninstalled Rust. When I went to boot up my laptop today, I found that my computer was getting stuck at the login GUI. I could enter the password, but when it would go to log me in, it froze for a second and brought me back to the GUI. After doing some digging in the TTY, I discovered that this was happening because bash was looking for .cargo/env, which no longer existed. Reinstalling Rust didn't help either, so I fixed the bug by manually creating a ".cargo" directory and adding an env file. Bash executes whatever's written in this file every time you open a terminal, so I just wrote "sleep 0". I know that there's probably a better way to do this, but my internet's out right now and I don't feel like spending time fighting with my computer over something I've already jerryrigged a solution for.</p>
+    </div><!-- /.entry-content -->
 
-    <nav>
-      <ul class="list">
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://matteoraso.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
+                            <li><a href="https://github.com/MatteoRaso">Github</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
 
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
 
-          <li>
-            <a target="_self" href="https://github.com/MatteoRaso" >Github</a>
-          </li>
-      </ul>
-    </nav>
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
 
-  </div>
-
-</aside>
-  <main>
-
-
-<article class="single">
-  <header>
-      
-    <h1 id="rust-broke-my-manjaro-installation-and-how-i-fixed-it">Rust Broke My Manjaro Installation (And How I Fixed It)</h1>
-    <p>
-      Posted on Mon 24 April 2023 in <a href="https:/category/technology.html">Technology</a>
-
-    </p>
-  </header>
-
-
-  <div>
-    <p>You ever have a bad day and think to yourself "I really just want to play old Flash games right now?" I did last night, so I attempted to install a CLI Flash emulator called Ruffle. This is built on top of Rust, so I had to install that as well. Unfortunately, I was having trouble with Rust not finding a file called "cargo.toml", so I uninstalled Rust. When I went to boot up my laptop today, I found that my computer was getting stuck at the login GUI. I could enter the password, but when it would go to log me in, it froze for a second and brought me back to the GUI. After doing some digging in the TTY, I discovered that this was happening because bash was looking for .cargo/env, which no longer existed. Reinstalling Rust didn't help either, so I fixed the bug by manually creating a ".cargo" directory and adding an env file. Bash executes whatever's written in this file every time you open a terminal, so I just wrote "sleep 0". I know that there's probably a better way to do this, but my internet's out right now and I don't feel like spending time fighting with my computer over something I've already jerryrigged a solution for.</p>
-  </div>
-  <div class="tag-cloud">
-    <p>
-    </p>
-  </div>
-
-
-
-
-
-
-</article>
-
-<footer>
-<p>&copy;  </p>
-<p>
-Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
-</p></footer>  </main>
-
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Blog",
-  "name": " Matteo's Website ",
-  "url" : "https:",
-  "image": "",
-  "description": ""
-}
-</script>
 </body>
 </html>

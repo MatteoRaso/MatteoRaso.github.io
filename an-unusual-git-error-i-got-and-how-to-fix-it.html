@@ -1,72 +1,143 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="generator" content="Pelican" />
-        <title>An Unusual Git Error I Got, And How to Fix it</title>
-        <link rel="stylesheet" href="https://matteoraso.github.io/theme/css/main.css" />
-        <link href="https://matteoraso.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Matteo's Website Atom Feed" />
-        <meta name="description" content="Note: This article was originally written on Feburary 21, 2021. I was working on this game I've been programming for a while when I decided to add..." />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://matteoraso.github.io/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="https://matteoraso.github.io/theme/pygments/github.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://matteoraso.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://matteoraso.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://matteoraso.github.io/theme/font-awesome/css/solid.css">
+
+
+
+
+  <link href="https://matteoraso.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Matteo's Website Atom">
+
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Matteo Raso" />
+<meta name="description" content="Note: This article was originally written on Feburary 21, 2021. I was working on this game I&#39;ve been programming for a while when I decided to add a little feature to let the player check how good the armor that they&#39;re wearing actually is. I commit, check the &#39;git status&#39; …" />
+<meta name="keywords" content="">
+
+
+  <meta property="og:site_name" content="Matteo's Website"/>
+  <meta property="og:title" content="An Unusual Git Error I Got, And How to Fix it"/>
+  <meta property="og:description" content="Note: This article was originally written on Feburary 21, 2021. I was working on this game I&#39;ve been programming for a while when I decided to add a little feature to let the player check how good the armor that they&#39;re wearing actually is. I commit, check the &#39;git status&#39; …"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="https://matteoraso.github.io/an-unusual-git-error-i-got-and-how-to-fix-it.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2023-04-16 00:00:00-04:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="https://matteoraso.github.io/author/matteo-raso.html">
+  <meta property="article:section" content="Technology"/>
+  <meta property="og:image" content="">
+
+  <title>Matteo's Website &ndash; An Unusual Git Error I Got, And How to Fix it</title>
+
+
 </head>
+<body class="light-theme">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://matteoraso.github.io/">Matteo's Website</a></h1>
-                <nav><ul>
-                    <li><a href="https://matteoraso.github.io/category/anime.html">Anime</a></li>
-                    <li><a href="https://matteoraso.github.io/category/draughts.html">Draughts</a></li>
-                    <li><a href="https://matteoraso.github.io/category/misc.html">Misc</a></li>
-                    <li class="active"><a href="https://matteoraso.github.io/category/technology.html">Technology</a></li>
-                    <li><a href="https://matteoraso.github.io/category/video-games.html">Video Games</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="https://matteoraso.github.io/an-unusual-git-error-i-got-and-how-to-fix-it.html" rel="bookmark"
-           title="Permalink to An Unusual Git Error I Got, And How to Fix it">An Unusual Git Error I Got, And How to Fix it</a></h1>
-    </header>
+<aside>
+  <div>
+    <a href="https://matteoraso.github.io/">
+      <img src="https://matteoraso.github.io/theme/img/profile.png" alt="" title="">
+    </a>
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2023-04-16T00:00:00-04:00">
-                Published: Sun 16 April 2023
-        </abbr>
+    <h1>
+      <a href="https://matteoraso.github.io/"></a>
+    </h1>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://matteoraso.github.io/author/matteo-raso.html">Matteo Raso</a>
-        </address>
-<p>In <a href="https://matteoraso.github.io/category/technology.html">Technology</a>.</p>
 
-</footer><!-- /.post-info -->      <p>Note: This article was originally written on Feburary 21, 2021.</p>
+
+
+    <ul class="social">
+      <li>
+        <a class="sc-Github"
+           href="https://github.com/MatteoRaso"
+           target="_blank">
+          <i class="fa-brands fa-Github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-Another social link"
+           href="#"
+           target="_blank">
+          <i class="fa-brands fa-Another social link"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="an-unusual-git-error-i-got-and-how-to-fix-it">An Unusual Git Error I Got, And How to Fix it</h1>
+    <p>
+      Posted on Sun 16 April 2023 in <a href="https://matteoraso.github.io/category/technology.html">Technology</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Note: This article was originally written on Feburary 21, 2021.</p>
 <p>I was working on this game I've been programming for a while when I decided to add a little feature to let the player check how good the armor that they're wearing actually is. I commit, check the 'git status' to see if there was anything that I was missing, found nothing, and pushed to my Github repo. All in all, a pretty normal experience, until I noticed an extremely abnormal bug. Instead of pushing my code, Git said "fatal: unable to read 'messed_up_hash'". For some reason I still don't understand, Git expected the commit to be under a different hash than the one it was actually under. A bit unusual, so I look up solutions. I find several solutions to fix corrupted objects, but none of them worked for me, since they assume that the hash is actually there (I checked my .git directory, there really wasn't a hash there). This brought me to what looked like the only solution I hadn't tried: delete the repo, pull from Github, and accept losing your unpushed commits. This isn't exactly a bad solution, since it works and it's easy to do, but it assumes best practice. I have (or at least had, now that this scare has fixed me up) a habit where I let commits pile up before pushing. This is not best practice. I had 8 commits piled up, one of which was extremely important and took a considerable amount of time to figure out. Dumping it wasn't an option as far as I'm concerned.</p>
 <p>Here I decided to keep looking for solutions to my problem. Thankfully, I found one other person who had my exact same problem: Jim Schubert.  In a 2012 post on <a href="https://www.ipreferjim.com/2012/02/git-push-fatal-unable-to-read-sha1/">his website</a>, almost down to the exact same day that I had the problem, Jim outlines a way to fix the problem by writing the hash to Git. It's a reasonable fix, but with one problem: it didn't work on my repo. Again, no idea why, since there's no reason why it wouldn't work, but computers don't always act in logical ways. Yet again, I had to search for answers.</p>
 <p>Suddenly, it hit me: why not just get rid of the commit? I use 'git reset' to remove it, only to find out that it needs the non-existent hash in order to remove it. Great. At this point, I'm trying to find out how to remove a commit without directly interacting with the commit when I finally find my solution: backup the problematic file, use 'git rm' to get rid of it, use your text editor of choice on the copy to undo whatever changes you made, rename the copy as the original file, use 'git add', and then run 'git commit --amend --allow-empty'. Your commit still stays, and will probably always stay, but now Git won't give you any problems about missing hashes. After running those commands, I was finally able to push to my Github repo. Here's hoping I never have to do this again.</p>
-    </div><!-- /.entry-content -->
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
 
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://matteoraso.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
-                            <li><a href="https://github.com/MatteoRaso">Github</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
 
-                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
 
+
+</article>
+
+<footer>
+<p>&copy;  </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Matteo's Website ",
+  "url" : "https://matteoraso.github.io",
+  "image": "",
+  "description": ""
+}
+</script>
 </body>
 </html>
